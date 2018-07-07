@@ -8,19 +8,19 @@ const Home = () => {
 
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link rel="icon" href="../../../../favicon.ico"/>
 
     <title>Product example for Bootstrap</title>
 
   {/* Bootstrap core CSS */}
-    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet"/>
 
     {/* Custom styles for this template */}
-    <link href="product.css" rel="stylesheet">
+    <link href="product.css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -43,7 +43,7 @@ const Home = () => {
     <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div className="col-md-5 p-lg-5 mx-auto my-5">
         <h1 className="display-4 font-weight-normal">Punny headline</h1>
-        <p className="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+        <p className="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apples marketing pages.</p>
         <a className="btn btn-outline-secondary" href="#">Coming soon</a>
       </div>
       <div className="product-device box-shadow d-none d-md-block"></div>
@@ -56,7 +56,7 @@ const Home = () => {
           <h2 className="display-5">Another headline</h2>
           <p className="lead">And an even wittier subheading.</p>
         </div>
-        <div className="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        <div className="bg-light box-shadow mx-auto" style={{width: 80% height: 300px border-radius: 21px 21px 0 0}}></div>
       </div>
       <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div className="my-3 p-3">
@@ -169,21 +169,22 @@ const Home = () => {
     {/* Bootstrap core JavaScript
     ==================================================
      Placed at the end of the document so the pages load faster */}
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+  {/*  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/holder.min.js"></script>
+
+    */}
     <script>
       Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
+        {bg: '#55595c'},
+        {fg: '#eceeef'},
+        {text: 'Thumbnail'}
       });
     </script>
   </body>
 </html>
-
 </div>
 )}
 export default Home;
